@@ -22,7 +22,6 @@ class App extends React.Component {
         this.unsubscribeFromAuth = auth.onAuthStateChanged(
             function (user) {
                 this.setState({ user });
-                console.log(user);
             }.bind(this)
         );
     }
@@ -41,6 +40,9 @@ class App extends React.Component {
                         <DropzoneComponent />
                     </>
                 )}
+                <p className="credit">
+                    Made with ❤️ by <a href="https://github.com/Goku-kun">Goku-kun</a>
+                </p>
             </div>
         );
     }

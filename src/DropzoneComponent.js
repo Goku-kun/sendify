@@ -12,7 +12,6 @@ function DropzoneComponent() {
     const onDrop = useCallback(
         function (acceptedFiles) {
             setDownloadLink(null);
-            console.log(acceptedFiles);
             setFile(acceptedFiles[0]);
         },
         [setFile]
@@ -41,7 +40,6 @@ function DropzoneComponent() {
 
         try {
             document.execCommand("copy");
-            console.log("copied");
             window.getSelection().removeAllRanges();
         } catch (err) {
             console.log("Oops, unable to copy");

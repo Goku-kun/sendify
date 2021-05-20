@@ -33,6 +33,12 @@ h4 {
     align-items: center;
 }
 
+.credit {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+}
+
 .drop-zone-comp {
     margin-top: 5%;
     width: 100%;
