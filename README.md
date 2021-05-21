@@ -45,7 +45,7 @@ An application for sharing using drag and drop upload and sharing the download l
 
 
 ## Project Status
-Project is: "version - 1.0.0" is live .
+Version - 1.0.0 is live .
 
 
 ## Room for Improvement
