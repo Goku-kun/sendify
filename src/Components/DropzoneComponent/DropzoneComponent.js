@@ -1,8 +1,7 @@
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import React, { useCallback, useState } from "react";
 import { useDropzone } from "react-dropzone";
-import { storage } from "./firebase";
-import { auth } from "./firebase";
+import { storage, auth } from "../../firebase";
 import Loader from "react-loader-spinner";
 
 function DropzoneComponent() {

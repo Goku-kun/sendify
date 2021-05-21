@@ -1,9 +1,9 @@
 import React from "react";
 import "./normalize.css";
 import "./App.css";
-import DropzoneComponent from "./DropzoneComponent";
-import { auth } from "./firebase";
-import Login from "./Login";
+import DropzoneComponent from "../DropzoneComponent/DropzoneComponent";
+import { auth } from "../../firebase";
+import Login from "../Login/Login";
 
 class App extends React.Component {
     constructor(props) {
@@ -41,7 +41,10 @@ class App extends React.Component {
                     </>
                 )}
                 <p className="credit">
-                    Made with ❤️ by <a href="https://github.com/Goku-kun">Goku-kun</a>
+                    Made with ❤️ by{" "}
+                    <a href="https://github.com/Goku-kun" target="_blank" rel="noreferrer">
+                        Goku-kun
+                    </a>
                 </p>
             </div>
         );
