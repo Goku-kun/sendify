@@ -58,11 +58,17 @@ h4 {
     align-items: center;
 }
 
-.drop-zone .text {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
+.drop-zone:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
+
+/*.drop-zone .text {*/
+/*text-decoration: none;*/
+/*color: white;*/
+/*padding: 10px;*/
+/*}*/
 
 .drop-zone .text:hover {
     cursor: pointer;
@@ -114,6 +120,31 @@ button:active {
     font-size: 16px;
     font-family: "Oxygen", sans-serif;
     letter-spacing: 2px;
+}
+
+a.download {
+    font-size: 15px;
+    width: 70%;
+    margin-top: 10px;
+    background: linear-gradient(to bottom, #000 0%, #000 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 0px 4px;
+    text-decoration: none;
+    transition: background-size 0.35s, color;
+    transition-delay: 0.25s;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 14px;
+}
+
+a.download:hover {
+    background-size: 4px 100px;
+    border-radius: 14px;
+    color: white;
 }
 
 .logout {
